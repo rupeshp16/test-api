@@ -28,10 +28,6 @@ output application/json
 ]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
-<<<<<<< HEAD
-		<logger level="INFO" doc:name="Logger" doc:id="5c53c6f1-ec66-4537-a4bc-6ccdc0e00836" message='"successfully completed training"'/>
-=======
-		<logger level="INFO" doc:name="Logger" doc:id="5c53c6f1-ec66-4537-a4bc-6ccdc0e00836" message='"successfully completed training in git hub changes"'/>
->>>>>>> 71eb5755f66ebb6b6a864d7f17bbf9d1e60086d4
+		<logger level="INFO" doc:name="Logger" doc:id="5c53c6f1-ec66-4537-a4bc-6ccdc0e00836" message='"successfully completed training in git hub"'/>
 	</flow>
 </mule>
