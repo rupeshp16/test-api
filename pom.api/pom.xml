@@ -35,7 +35,7 @@
       					<muleVersion>4.6.0</muleVersion>
       					<username>rupesh_Apr_2024</username>
       					<password>Rupesh1992@</password>
-      					<applicationName>dev-pom-test-api</applicationName>
+      					<applicationName>stage-pom-test-api</applicationName>
      	 				<environment>Sandbox</environment>
       					<region>us-east-1</region>
       					<workers>1</workers>
@@ -43,8 +43,6 @@
       					<objectStoreV2>true</objectStoreV2>
       					<properties>
         					<http.port>8081</http.port>
-        					<anypoint.platform.client_id>74dd306c3bab45dfabe67781cdb3a1fb</anypoint.platform.client_id>
-        					<anypoint.platform.client_secret>a5f7B4E9A90842D08dFA4345aff6EC91</anypoint.platform.client_secret>
       					</properties>
     				</cloudHubDeployment>
   				</configuration>
