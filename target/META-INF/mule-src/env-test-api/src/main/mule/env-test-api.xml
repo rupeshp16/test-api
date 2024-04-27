@@ -7,6 +7,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="507e51d4-6a25-49f8-bdd3-0c00112e8200" >
 		<http:listener-connection host="0.0.0.0" port="${http.port}" />
 	</http:listener-config>
+	<configuration-properties doc:name="Configuration properties" doc:id="2ca07da2-05a6-4774-b90c-e4517f35aded" file="stage.yaml" />
 	<flow name="env-test-apiFlow" doc:id="a7390611-71a9-48d9-ac0b-689c9400002f" >
 		<http:listener doc:name="Listener" doc:id="d06b65d1-1704-45e4-8c1e-00d1bcc87dd4" config-ref="HTTP_Listener_config" path="/test"/>
 		<set-payload value='#["testing the environment"]' doc:name="Set Payload" doc:id="58f0d253-376e-4cfe-a277-f1c005b22afb" />

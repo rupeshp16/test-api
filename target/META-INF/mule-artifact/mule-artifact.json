@@ -15,7 +15,8 @@
       "exportedResources": [
         "application-types.xml",
         "env-test-api.xml",
-        "log4j2.xml"
+        "log4j2.xml",
+        "stage.yaml"
       ]
     }
   },
